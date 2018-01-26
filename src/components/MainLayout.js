@@ -3,10 +3,6 @@ import React, { Component } from 'react';
 import NorrisCategoriesList from './NorrisCategoriesList';
 
 class MainLayout extends Component {
-  constructor() {
-    super()
-  }
-
   render() {
     return (
       <div className="app-container">

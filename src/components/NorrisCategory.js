@@ -24,7 +24,7 @@ class NorrisCategory extends Component {
 
   render() {
     return (
-      <a href="#" className={`list-group-item list-group-item-action py-2 ${this.props.activeCategory == this.props.categoryName ? 'active' : ''}`} onClick={this.handleOnClick}>
+      <a href="#" className={`list-group-item list-group-item-action py-2 ${this.props.activeCategory === this.props.categoryName ? 'active' : ''}`} onClick={this.handleOnClick}>
         {this.props.categoryName}
       </a>
     );
